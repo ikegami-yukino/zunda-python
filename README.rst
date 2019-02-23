@@ -144,10 +144,10 @@ Copyright
 =============
 
 Zunda Python
-(c) 2017- Yukino Ikegami. All Rights Reserved.
+(c) 2019- Yukino Ikegami. All Rights Reserved.
 
 Zunda (Original version)
-(c) @jmizuno
+(c) 2013- @jmizuno
 
 ACKNOWLEDGEMENT
 =================
