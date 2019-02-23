@@ -19,6 +19,7 @@ Installation
 
 ::
 
+ # Install Zunda
  wget https://github.com/jmizuno/zunda/archive/2.0b4.tar.gz
  tar xzf zunda-2.0b4.tar.gz
  rm zunda-2.0b4.tar.gz
@@ -26,8 +27,11 @@ Installation
  ./configure
  make
  sudo make install
+ cd ../
+ rm -rf zunda-2.0b4
 
- pip install zunda
+ # Install zunda-python
+ pip install zunda-python
 
 Example
 ===========
@@ -152,16 +156,16 @@ Zunda (Original version)
 ACKNOWLEDGEMENT
 =================
 
-This module uses Zunda
+This module uses Zunda.
 I thank to @jmizuno and Tohoku University Inui-Okazaki Lab.
 
 
-.. |pyversion| image:: https://img.shields.io/pypi/pyversions/zunda.svg
+.. |pyversion| image:: https://img.shields.io/pypi/pyversions/zunda-python.svg
 
-.. |version| image:: https://img.shields.io/pypi/v/zunda.svg
-    :target: http://pypi.python.org/pypi/zunda/
+.. |version| image:: https://img.shields.io/pypi/v/zunda-python.svg
+    :target: http://pypi.python.org/pypi/zunda-python/
     :alt: latest version
 
-.. |license| image:: https://img.shields.io/pypi/l/zunda.svg
-    :target: http://pypi.python.org/pypi/zunda/
+.. |license| image:: https://img.shields.io/pypi/l/zunda-python.svg
+    :target: http://pypi.python.org/pypi/zunda-python/
     :alt: license
